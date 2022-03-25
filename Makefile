@@ -10,6 +10,9 @@ diff:
 	@diff -u fakeymacs/_config_personal.py config_personal.py || :
 
 update:
+	cd fakeymacs && git submodule update
+
+update-main:
 	cd fakeymacs && git submodule update --remote
 
 diff-config:
