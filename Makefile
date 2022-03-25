@@ -11,6 +11,7 @@ diff:
 
 update:
 	cd fakeymacs && git submodule update
+	cd fakeymacs && git fetch --prune && git pull
 
 diff-config:
 	@diff -u "$(KEYHAC_DIR)/config.py" config.py
