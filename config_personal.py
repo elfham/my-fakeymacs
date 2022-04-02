@@ -97,7 +97,7 @@ fc.side_of_ctrl_key = "L"
 
 # Escキーを Metaキーとして使うかどうかを指定する（True: 使う、False: 使わない）
 # （True（Metaキーとして使う）に設定されている場合、ESC の二回押下で ESC が入力されます）
-# fc.use_esc_as_meta = True
+fc.use_esc_as_meta = False
 
 # Emacs日本語入力モードを使うかどうかを指定する（True: 使う、False: 使わない）
 fc.use_emacs_ime_mode = False
@@ -157,9 +157,10 @@ fc.application_key = None
 fc.use_ctrl_digit_key_for_digit_argument = False
 
 # アクティブウィンドウを切り替えるキーの組み合わせ（前、後 の順）を指定する（複数指定可）
-# （最小化されていないウィンドウを順に切り替えます。初期設定は ["A-p", "A-n"] としていますが、Emacs
-#   の shell-mode のキーバインドなどと設定が被る場合には、["A-S-p", "A-S-n"] などの異なる設定とするか、
-#   Emacs 側に次の設定を入れて、キーの設定を置き換えてご利用ください。
+# （A-Esc キーの動作とは異なり、仮想デスクトップを跨ぎ、最小化されていないウィンドウを順に切り替え
+#   ます。初期設定は ["A-p", "A-n"] としていますが、Emacs の shell-mode のキーバインドなどと設定が
+#   被る場合には、["A-S-p", "A-S-n"] などの異なる設定とするか、Emacs 側に次の設定を入れて、Emacs 側
+#   のキーの設定を置き換えてご利用ください。
 #     (define-key key-translation-map (kbd "M-S-p") (kbd "M-p"))
 #     (define-key key-translation-map (kbd "M-S-n") (kbd "M-n"))
 #  ）
@@ -257,12 +258,14 @@ fc.lancherList_listers = [
 # VSCode 用のキーの設定を行う
 if 1:
     fc.vscode_target  = ["Code.exe"]
-    # vscode.dev 等、ブラウザで動作する VSCode で本機能を無効とするには、次の４行をコメントアウト
+
+    # vscode.dev 等、ブラウザで動作する VSCode で本機能を有効とするには、次の４行のコメントを解除
     # してください
-    fc.vscode_target += ["chrome.exe",
-                         "msedge.exe",
-                         "firefox.exe",
-                         ]
+    # fc.vscode_target += ["chrome.exe",
+    #                      "msedge.exe",
+    #                      "firefox.exe",
+    #                      ]
+
     # fc.vscode_prefix_key = [["C-;", "C-A-;"]]
     fc.use_ctrl_atmark_for_mark = False
     fc.use_direct_input_in_vscode_terminal = False
