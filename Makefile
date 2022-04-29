@@ -9,11 +9,13 @@ hoge:
 diff:
 	@diff -u fakeymacs/_config_personal.py config_personal.py || :
 
-update:
+update-local:
 	git submodule update
 
-update-main:
+update-remote:
 	git submodule update --remote
+
+update: update-remote update-local
 
 diff-config:
 	@diff -u "$(KEYHAC_DIR)/config.py" config.py
