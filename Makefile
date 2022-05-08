@@ -18,7 +18,7 @@ update-remote:
 update: update-remote update-local
 
 diff-config:
-	@diff -u "$(KEYHAC_DIR)/config.py" config.py
+	@diff -u "$(KEYHAC_DIR)/config.py" fakeymacs/config.py
 
 pull-config:
 	cp "$(KEYHAC_DIR)/config.py" .
