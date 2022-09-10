@@ -47,6 +47,9 @@ fc.not_emacs_target += [
     "remote-viewer.exe",            # Virtual Machine Viewer
     "keycastow.exe",                # KeyCastOW
     "orakuin.exe",                  # Orakuin
+    "kicad.exe",                    # KiCad
+    "XVIIx64.exe",                  # LTspice
+    "Capture.exe",                  # PSpice for TI
     # Emulators
     "DOSBox.exe",                   # DOSBox
     "dosbox-x.exe",                 # DOSBox-X
@@ -55,11 +58,12 @@ fc.not_emacs_target += [
     "openmsx.exe",                  # openMSX
     "blueMSX.exe",                  # blueMSX
     "np2.exe",                      # Neko Project II
-    # Creation
-    "Cubase9.5.exe",                # Cubase
     # Utilities
     "DupFileEliminator.exe",        # DupFileEliminator
+    # Creation
+    "Cubase9.5.exe",                # Cubase
     # Games
+    "game.exe",                     # Game?
     "Astro.exe",                    # Astroneer
     "Astro-Win64-Shipping.exe",     # Astroneer
     "Minecraft.Windows.exe",        # Minecraft
@@ -67,6 +71,7 @@ fc.not_emacs_target += [
     "hl2.exe",                      # Portal
     "portal2.exe",                  # Portal 2
     "DOOM.exe",                     # DOOM
+    "eurotrucks.exe",               # Euro Truck Simulator
 ]
 
 # IME の切り替え“のみをしたい”アプリケーションソフトを指定する
