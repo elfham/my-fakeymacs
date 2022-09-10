@@ -40,12 +40,14 @@ fc.ime = "old_Microsoft_IME"
 # Emacs のキーバインドに“したくない”アプリケーションソフトを指定する
 # （Keyhac のメニューから「内部ログ」を ON にすると processname や classname を確認することができます）
 fc.not_emacs_target += [
+    # Development
     "puttyjp.exe",                  # PuTTYjp
     "RLogin.exe",                   # RLogin
     "Pengwin.exe",                  # Pengwin
     "remote-viewer.exe",            # Virtual Machine Viewer
     "keycastow.exe",                # KeyCastOW
     "orakuin.exe",                  # Orakuin
+    # Emulators
     "DOSBox.exe",                   # DOSBox
     "dosbox-x.exe",                 # DOSBox-X
     "x64.exe",                      # VICE C64
@@ -53,14 +55,18 @@ fc.not_emacs_target += [
     "openmsx.exe",                  # openMSX
     "blueMSX.exe",                  # blueMSX
     "np2.exe",                      # Neko Project II
+    # Creation
     "Cubase9.5.exe",                # Cubase
+    # Utilities
+    "DupFileEliminator.exe",        # DupFileEliminator
+    # Games
     "Astro.exe",                    # Astroneer
     "Astro-Win64-Shipping.exe",     # Astroneer
     "Minecraft.Windows.exe",        # Minecraft
     "ATrainPC.exe",                 # A-Train PC
     "hl2.exe",                      # Portal
     "portal2.exe",                  # Portal 2
-    "DupFileEliminator.exe",        # DupFileEliminator
+    "DOOM.exe",                     # DOOM
 ]
 
 # IME の切り替え“のみをしたい”アプリケーションソフトを指定する
