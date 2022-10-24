@@ -58,6 +58,7 @@ fc.not_emacs_target += [
     "openmsx.exe",                  # openMSX
     "blueMSX.exe",                  # blueMSX
     "np2.exe",                      # Neko Project II
+    "PC6001VX.exe",                 # PC6001VX
     # Utilities
     "DupFileEliminator.exe",        # DupFileEliminator
     # Creation
