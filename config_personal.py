@@ -62,6 +62,7 @@ fc.not_emacs_target += [
     "DupFileEliminator.exe",        # DupFileEliminator
     # Creation
     "Cubase9.5.exe",                # Cubase
+    "Rack.exe",                     # VCV Rack
     # Games
     "game.exe",                     # Game?
     "Astro.exe",                    # Astroneer
