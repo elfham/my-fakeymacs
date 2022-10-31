@@ -45,6 +45,7 @@ fc.not_emacs_target += [
     "RLogin.exe",                   # RLogin
     "Pengwin.exe",                  # Pengwin
     "remote-viewer.exe",            # Virtual Machine Viewer
+    "vcxsrv.exe",                   # VcXsrv
     "keycastow.exe",                # KeyCastOW
     "orakuin.exe",                  # Orakuin
     "kicad.exe",                    # KiCad
