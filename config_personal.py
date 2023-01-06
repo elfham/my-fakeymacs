@@ -46,6 +46,7 @@ fc.not_emacs_target += [
     "Pengwin.exe",                  # Pengwin
     "remote-viewer.exe",            # Virtual Machine Viewer
     "vcxsrv.exe",                   # VcXsrv
+    "vmrc.exe",                     # VMware Remote Console
     "keycastow.exe",                # KeyCastOW
     "orakuin.exe",                  # Orakuin
     "kicad.exe",                    # KiCad
