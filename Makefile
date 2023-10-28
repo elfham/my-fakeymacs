@@ -15,7 +15,7 @@ update-local:
 update-remote:
 	git submodule update --remote
 
-update: update-remote update-local
+update: update-remote
 
 diff-config:
 	@diff -u "$(KEYHAC_DIR)/config.py" fakeymacs/config.py
