@@ -54,7 +54,18 @@ fc.ime_off_cursor_color = 0x0000FF # 赤
 
 # すべてのキーマップを透過（スルー）するアプリケーションソフトを指定する（全ての設定に優先する）
 # （keymap_base、keymap_global を含むすべてのキーマップをスルーします）
-fc.transparent_target       += []
+fc.transparent_target       += [
+    # Games
+    "game.exe",                     # Game?
+    "Astro.exe",                    # Astroneer
+    "Astro-Win64-Shipping.exe",     # Astroneer
+    "hl2.exe",                      # Portal
+    "portal2.exe",                  # Portal 2
+    "Minecraft.Windows.exe",        # Minecraft
+    "ATrainPC.exe",                 # A-Train PC
+    "DOOM.exe",                     # DOOM
+    "eurotrucks.exe",               # Euro Truck Simulator
+]
 
 # すべてのキーマップを透過（スルー）するウィンドウのクラスネームを指定する（全ての設定に優先する）
 # （keymap_base、keymap_global を含むすべてのキーマップをスルーします）
@@ -93,16 +104,6 @@ fc.not_emacs_target += [
     # Creation
     "Cubase9.5.exe",                # Cubase
     "Rack.exe",                     # VCV Rack
-    # Games
-    "game.exe",                     # Game?
-    "Astro.exe",                    # Astroneer
-    "Astro-Win64-Shipping.exe",     # Astroneer
-    "Minecraft.Windows.exe",        # Minecraft
-    "ATrainPC.exe",                 # A-Train PC
-    "hl2.exe",                      # Portal
-    "portal2.exe",                  # Portal 2
-    "DOOM.exe",                     # DOOM
-    "eurotrucks.exe",               # Euro Truck Simulator
 ]
 
 # IME の切り替え“のみをしたい”アプリケーションソフトを指定する
