@@ -65,6 +65,7 @@ fc.transparent_target       += [
     "ATrainPC.exe",                 # A-Train PC
     "DOOM.exe",                     # DOOM
     "eurotrucks.exe",               # Euro Truck Simulator
+    "Exit8-Win64-Shipping.exe",     # Exit8
 ]
 
 # すべてのキーマップを透過（スルー）するウィンドウのクラスネームを指定する（全ての設定に優先する）
