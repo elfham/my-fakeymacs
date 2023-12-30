@@ -17,6 +17,9 @@ update-remote:
 
 update: update-remote
 
+status:
+	git status
+
 diff-config:
 	@diff -u "$(KEYHAC_DIR)/config.py" fakeymacs/config.py
 
