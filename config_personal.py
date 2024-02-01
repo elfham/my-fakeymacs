@@ -61,6 +61,7 @@ fc.transparent_target       += [
     "Astro-Win64-Shipping.exe",     # Astroneer
     "hl2.exe",                      # Portal
     "portal2.exe",                  # Portal 2
+    "revolution.exe",               # Portal: Revolution
     "Minecraft.Windows.exe",        # Minecraft
     "ATrainPC.exe",                 # A-Train PC
     "DOOM.exe",                     # DOOM
