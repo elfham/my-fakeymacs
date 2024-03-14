@@ -7,7 +7,8 @@ hoge:
 	@ls -laF "$(KEYHAC_DIR)"
 
 diff:
-	@diff -u fakeymacs/_config_personal.py config_personal.py || :
+	@diff -u fakeymacs/_config_personal.py config_personal.py | \
+		colordiff || :
 
 update-local:
 	git submodule update
