@@ -171,7 +171,7 @@ fc.use_emacs_ime_mode = False
 fc.emacs_ime_mode_balloon_message = "▲"
 
 # IME の状態を表示するバルーンメッセージを表示するかどうかを指定する（True: 表示する、False: 表示しない）
-fc.use_ime_status_balloon = True
+fc.use_ime_status_balloon = False
 
 # IME をトグルで切り替えるキーを指定する（複数指定可）
 fc.toggle_input_method_key = []
