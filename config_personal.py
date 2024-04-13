@@ -100,6 +100,12 @@ fc.not_emacs_target += [
     "openmsx.exe",                  # openMSX
     "blueMSX.exe",                  # blueMSX
     "np2.exe",                      # Neko Project II
+    "np21.exe",                     # Neko Project II
+    "np21nt.exe",                   # Neko Project II
+    "np2w.exe",                     # Neko Project 21/W
+    "np2x64w.exe",                  # Neko Project 21/W
+    "np21w.exe",                    # Neko Project 21/W
+    "np21x64w.exe",                 # Neko Project 21/W
     "PC6001VX.exe",                 # PC6001VX
     "tic80.exe",                    # TIC-80
     # Utilities
