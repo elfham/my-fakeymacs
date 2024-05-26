@@ -68,11 +68,27 @@ fc.transparent_target       += [
     "eurotrucks.exe",               # Euro Truck Simulator
     "Exit8-Win64-Shipping.exe",     # Exit8
     "tomb123.exe",                  # Tomb Raider I-III Remastered
+    # Development
+    "remote-viewer.exe",            # Virtual Machine Viewer
+    "vcxsrv.exe",                   # VcXsrv
+    "vmrc.exe",                     # VMware Remote Console
+    # Emulators
+    "DOSBox.exe",                   # DOSBox
+    "dosbox-x.exe",                 # DOSBox-X
+    "x64.exe",                      # VICE C64
+    "xvic.exe",                     # VICE VIC20
+    "openmsx.exe",                  # openMSX
+    "blueMSX.exe",                  # blueMSX
+    "PC6001VX.exe",                 # PC6001VX
+    "tic80.exe",                    # TIC-80
 ]
 
 # すべてのキーマップを透過（スルー）するウィンドウのクラスネームを指定する（全ての設定に優先する）
 # （keymap_base、keymap_global を含むすべてのキーマップをスルーします）
-fc.transparent_target_class += []
+fc.transparent_target_class += [
+    # Emulators
+    "NP2-MainWindow",               # Neko Project II, Neko Project 21/W
+]
 
 # Emacs のキーバインドにするウィンドウのクラスネームを指定する（fc.not_emacs_target の設定より優先する）
 fc.emacs_target_class  += []
@@ -84,30 +100,11 @@ fc.not_emacs_target += [
     "puttyjp.exe",                  # PuTTYjp
     "RLogin.exe",                   # RLogin
     "Pengwin.exe",                  # Pengwin
-    "remote-viewer.exe",            # Virtual Machine Viewer
-    "vcxsrv.exe",                   # VcXsrv
-    "vmrc.exe",                     # VMware Remote Console
-    "keycastow.exe",                # KeyCastOW
     "orakuin.exe",                  # Orakuin
+    "keycastow.exe",                # KeyCastOW
     "kicad.exe",                    # KiCad
     "XVIIx64.exe",                  # LTspice
     "Capture.exe",                  # PSpice for TI
-    # Emulators
-    "DOSBox.exe",                   # DOSBox
-    "dosbox-x.exe",                 # DOSBox-X
-    "x64.exe",                      # VICE C64
-    "xvic.exe",                     # VICE VIC20
-    "openmsx.exe",                  # openMSX
-    "blueMSX.exe",                  # blueMSX
-    "np2.exe",                      # Neko Project II
-    "np21.exe",                     # Neko Project II
-    "np21nt.exe",                   # Neko Project II
-    "np2w.exe",                     # Neko Project 21/W
-    "np2x64w.exe",                  # Neko Project 21/W
-    "np21w.exe",                    # Neko Project 21/W
-    "np21x64w.exe",                 # Neko Project 21/W
-    "PC6001VX.exe",                 # PC6001VX
-    "tic80.exe",                    # TIC-80
     # Utilities
     "DupFileEliminator.exe",        # DupFileEliminator
     # Creation
