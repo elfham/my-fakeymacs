@@ -72,6 +72,7 @@ fc.transparent_target       += [
     "remote-viewer.exe",            # Virtual Machine Viewer
     "vcxsrv.exe",                   # VcXsrv
     "vmrc.exe",                     # VMware Remote Console
+    "vncviewer.exe",                # UltraVNC Viewer
     # Emulators
     "DOSBox.exe",                   # DOSBox
     "dosbox-x.exe",                 # DOSBox-X
