@@ -392,7 +392,8 @@ if 0:
 # Chrome 系ブラウザで Ctl-x C-b を入力した際、Chrome の拡張機能 QuicKey を起動する
 if 0:
     fc.chrome_list= ["msedge.exe",
-                     "chrome.exe"]
+                     "chrome.exe",
+                     ]
     fc.quickey_shortcut_key = "A-q"
     exec(readConfigExtension(r"chrome_quickey\config.py"), dict(globals(), **locals()))
 
@@ -402,7 +403,8 @@ if 0:
 if 0:
     fc.browser_list= ["chrome.exe",
                       "msedge.exe",
-                      "firefox.exe"]
+                      "firefox.exe",
+                      ]
     exec(readConfigExtension(r"browser_key\config.py"), dict(globals(), **locals()))
 
 # --------------------------------------------------------------------------------------------------
@@ -433,11 +435,13 @@ if 0:
 
 # VSCode 用のキーの設定を行う
 if 0:
-    fc.vscode_target  = ["Code.exe"]
-    fc.vscode_target += ["chrome.exe",
-                         "msedge.exe",
-                         "firefox.exe",
-                         ]
+    fc.vscode_target = ["Code.exe",
+                        "Cursor.exe",
+                        ]
+    fc.vscode_browser_target = ["chrome.exe",
+                                "msedge.exe",
+                                "firefox.exe",
+                                ]
 
     # fc.vscode_prefix_key = [["C-;", "C-A-;"]]
     fc.use_ctrl_atmark_for_mark = False
