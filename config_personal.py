@@ -82,6 +82,8 @@ fc.transparent_target       += [
     "blueMSX.exe",                  # blueMSX
     "PC6001VX.exe",                 # PC6001VX
     "tic80.exe",                    # TIC-80
+    # Utilities
+    "DupFileEliminator.exe",        # DupFileEliminator
 ]
 
 # すべてのキーマップを透過（スルー）するウィンドウのクラスネームを指定する（全ての設定に優先する）
@@ -106,8 +108,6 @@ fc.not_emacs_target += [
     "kicad.exe",                    # KiCad
     "XVIIx64.exe",                  # LTspice
     "Capture.exe",                  # PSpice for TI
-    # Utilities
-    "DupFileEliminator.exe",        # DupFileEliminator
     # Creation
     "Cubase9.5.exe",                # Cubase
     "Rack.exe",                     # VCV Rack
