@@ -80,6 +80,7 @@ fc.transparent_target       += [
     "x64.exe",                      # VICE C64
     "x64sc.exe",                    # VICE C64SC
     "xvic.exe",                     # VICE VIC20
+    "MSXPLAYer*.EXE",               # MSXPLAYer
     "openmsx.exe",                  # openMSX
     "blueMSX.exe",                  # blueMSX
     "PC6001VX.exe",                 # PC6001VX
