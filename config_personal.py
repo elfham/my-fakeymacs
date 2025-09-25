@@ -79,7 +79,9 @@ fc.transparent_target       += [
     "dosbox-x.exe",                 # DOSBox-X
     "x64.exe",                      # VICE C64
     "x64sc.exe",                    # VICE C64SC
+    "x128.exe",                     # VICE C128
     "xvic.exe",                     # VICE VIC20
+    "xpet.exe",                     # VICE PET
     "MSXPLAYer*.EXE",               # MSXPLAYer
     "openmsx.exe",                  # openMSX
     "blueMSX.exe",                  # blueMSX
