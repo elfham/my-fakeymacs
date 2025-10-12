@@ -77,11 +77,16 @@ fc.transparent_target       += [
     # Emulators
     "DOSBox.exe",                   # DOSBox
     "dosbox-x.exe",                 # DOSBox-X
-    "x64.exe",                      # VICE C64
-    "x64sc.exe",                    # VICE C64SC
     "x128.exe",                     # VICE C128
-    "xvic.exe",                     # VICE VIC20
+    "x64.exe",                      # VICE C64
+    "x64dtv.exe",                   # VICE C64DTV
+    "x64sc.exe",                    # VICE C64SC
+    "xcbm2.exe",                    # VICE CBM-6x0/7x0
+    "xcbm5x0.exe",                  # VICE CBM-5x0
+    "xscpu64.exe",                  # VICE C64 SuperCPU
     "xpet.exe",                     # VICE PET
+    "xplus4.exe",                   # VICE PLUS4
+    "xvic.exe",                     # VICE VIC20
     "MSXPLAYer*.EXE",               # MSXPLAYer
     "openmsx.exe",                  # openMSX
     "blueMSX.exe",                  # blueMSX
