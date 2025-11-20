@@ -6,6 +6,10 @@ hoge:
 	@echo KEYHAC_DIR="$(KEYHAC_DIR)"
 	@ls -laF "$(KEYHAC_DIR)"
 
+pull:
+	cd fakeymacs && git fetch --prune
+	cd fakeymacs && git pull
+
 diff:
 	@diff -u fakeymacs/_config_personal.py config_personal.py | \
 		colordiff || :
