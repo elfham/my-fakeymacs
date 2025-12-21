@@ -69,6 +69,7 @@ fc.transparent_target       += [
     "eurotrucks.exe",               # Euro Truck Simulator
     "Exit8-Win64-Shipping.exe",     # Exit8
     "tomb123.exe",                  # Tomb Raider I-III Remastered
+    "RealMoon-Win64-Shipping.exe",  # REAL MOON
     # Development
     "remote-viewer.exe",            # Virtual Machine Viewer
     "vcxsrv.exe",                   # VcXsrv
