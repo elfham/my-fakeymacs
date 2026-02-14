@@ -4,7 +4,7 @@ KEYHAC_DIR = ${APPDATA}/Keyhac
 hoge:
 	@echo USER=$${USER}
 	@echo KEYHAC_DIR="$(KEYHAC_DIR)"
-	@ls -laF "$(KEYHAC_DIR)"
+	@ls -lAF "$(KEYHAC_DIR)"
 
 pull:
 	cd fakeymacs && git fetch --prune
@@ -34,7 +34,7 @@ pull-config:
 install:
 	( \
 		cd fakeymacs ; \
-		cp config.py "$(KEYHAC_DIR)" ; \
-		cp -r fakeymacs_extensions "$(KEYHAC_DIR)" ; \
+		cp config.py "$(KEYHAC_DIR)/" ; \
+		cp -r fakeymacs_extensions "$(KEYHAC_DIR)/" ; \
 	)
-	cp config_personal.py "$(KEYHAC_DIR)"
+	cp config_personal.py "$(KEYHAC_DIR)/"
