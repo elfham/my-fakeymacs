@@ -518,6 +518,12 @@ if 0:
 
 # --------------------------------------------------------------------------------------------------
 
+# Vim 用のキーの設定を行う
+if 0:
+    exec(readConfigExtension(r"vim_key\config.py"), dict(globals(), **locals()))
+
+# --------------------------------------------------------------------------------------------------
+
 # Midnight Commander 用のキーの設定を行う
 if 0:
     exec(readConfigExtension(r"mc_key\config.py"), dict(globals(), **locals()))
