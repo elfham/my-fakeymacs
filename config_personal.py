@@ -158,6 +158,7 @@ fc.skip_settings_key    = {"keymap_base"      : ["W-g", "A-Tab", "Space"], # ベ
                            "keymap_global"    : [], # グローバル Keymap
                            "keymap_emacs"     : [], # Emacs キーバインド対象アプリ用 Keymap
                            "keymap_vscode"    : [], # Emacs キーバインド VSCode 拡張用 Keymap
+                           "keymap_vim"       : [], # Emacs キーバインド Vim 用 Keymap
                            "keymap_ime"       : [], # IME 切り替え専用アプリ用 Keymap
                            "keymap_ei"        : [], # Emacs 日本語入力モード用 Keymap
                            "keymap_tsw"       : [], # タスク切り替え画面用 Keymap
