@@ -70,6 +70,8 @@ fc.transparent_target       += [
     "Exit8-Win64-Shipping.exe",     # Exit8
     "tomb123.exe",                  # Tomb Raider I-III Remastered
     "RealMoon-Win64-Shipping.exe",  # REAL MOON
+    "QUOD.exe",                     # QUOD
+    "QUOD_uncompressed.exe",        # QUOD
     # Development
     "remote-viewer.exe",            # Virtual Machine Viewer
     "vcxsrv.exe",                   # VcXsrv
