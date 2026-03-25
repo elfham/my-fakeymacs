@@ -73,6 +73,7 @@ fc.transparent_target       += [
     "QUOD.exe",                     # QUOD
     "QUOD_uncompressed.exe",        # QUOD
     # Development
+    "mstsc.exe",                    # Remote Desktop
     "remote-viewer.exe",            # Virtual Machine Viewer
     "vcxsrv.exe",                   # VcXsrv
     "vmrc.exe",                     # VMware Remote Console
