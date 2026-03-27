@@ -20,6 +20,11 @@ update-local:
 update-remote:
 	git submodule update --remote
 
+update-sync:
+	git fetch --prune
+	git pull
+	git submodule update --init --recursive
+
 update: update-remote
 
 status:
