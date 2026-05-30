@@ -162,6 +162,7 @@ fc.skip_mapping_key     = {"keymap_base"      : ["W-g", "A-Tab", "Space"], # ベ
                            "keymap_global"    : [], # グローバル Keymap
                            "keymap_emacs"     : [], # Emacs キーバインド対象アプリ用 Keymap
                            "keymap_vscode"    : [], # Emacs キーバインド VSCode 拡張用 Keymap
+                           "keymap_zed"       : [], # Emacs キーバインド Zed 拡張用 Keymap
                            "keymap_vim"       : [], # Emacs キーバインド Vim 用 Keymap
                            "keymap_ime"       : [], # IME 切り替え専用アプリ用 Keymap
                            "keymap_ei"        : [], # Emacs 日本語入力モード用 Keymap
@@ -500,11 +501,18 @@ if 0:
 
 # VSCode 用のキーの設定を行う
 if 0:
-    fc.esc_mode_in_keyboard_quit = 1
+    fc.vscode_esc_mode_in_keyboard_quit = 1
     exec(readConfigExtension(r"vscode_key\config.py"), dict(globals(), **locals()))
 
 # --------------------------------------------------------------------------------------------------
 
+# Zed エディタ用のキーの設定を行う
+if 0:
+    fc.zed_esc_mode_in_keyboard_quit = 1
+    fc.zed_use_direct_input_in_terminal = False
+    exec(readConfigExtension(r"zed_key\config.py"), dict(globals(), **locals()))
+
+# --------------------------------------------------------------------------------------------------
 # Obsidian 用のキーの設定を行う
 if 0:
     # fc.obsidian_language = "US"
@@ -525,7 +533,7 @@ if 0:
 
 # --------------------------------------------------------------------------------------------------
 
-# Vim 用のキーの設定を行う
+# Vim 系エディタ用のキーの設定を行う
 if 0:
     fc.vim_keep_in_insert_mode = False
     fc.vim_insert_normal_mode_key = "C-o"
@@ -533,7 +541,7 @@ if 0:
 
 # --------------------------------------------------------------------------------------------------
 
-# elecxzy 用のキーの設定を行う
+# elecxzy エディタ用のキーの設定を行う
 if 0:
     exec(readConfigExtension(r"elecxzy_key\config.py"), dict(globals(), **locals()))
 
