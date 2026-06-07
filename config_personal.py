@@ -99,6 +99,7 @@ fc.transparent_target       += [
     "blueMSX.exe",                  # blueMSX
     "PC6001VX.exe",                 # PC6001VX
     "tic80.exe",                    # TIC-80
+    "EightyOne.exe",                # EightyOne Sinclair Emulator
     # Utilities
     "DupFileEliminator.exe",        # DupFileEliminator
 ]
