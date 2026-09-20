@@ -332,6 +332,7 @@ define_key(keymap_global, f"{popup_prefix_key} n", popup_app("Notepad.exe"))
 define_key(keymap_global, f"{popup_prefix_key} m", popup_app("msedge.exe"))
 define_key(keymap_global, f"{popup_prefix_key} c", popup_app("chrome.exe"))
 define_key(keymap_global, f"{popup_prefix_key} v", popup_app("Code.exe"))
+define_key(keymap_global, f"{popup_prefix_key} z", popup_app("Zed.exe"))
 define_key(keymap_global, f"{popup_prefix_key} o", popup_app("Obsidian.exe"))
 define_key(keymap_global, f"{popup_prefix_key} t", popup_app("WindowsTerminal.exe"))
 # define_key(keymap_global, f"{popup_prefix_key} e", popup_app(None, None, "emacs-*"))
@@ -513,6 +514,7 @@ if 0:
     exec(readConfigExtension(r"zed_key\config.py"), dict(globals(), **locals()))
 
 # --------------------------------------------------------------------------------------------------
+
 # Obsidian 用のキーの設定を行う
 if 0:
     # fc.obsidian_language = "US"
